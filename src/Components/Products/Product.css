@@ -1,0 +1,29 @@
+.product {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+    box-shadow: 20px 20px 50px #fff;
+    margin-bottom: 20px;
+}
+.product-details {
+    margin-left: 10px;
+    padding: 10px;
+   
+}
+.product-details p{
+ margin-top: 5px;
+}
+.product-details h3{
+   color: blue;
+   font-weight: 400;
+}
+.btn {
+    margin-top: 10px;
+    width: 120px;
+    background: #ffd64f;
+    border: none;
+    height: 25px;
+    cursor: pointer;
+    color: #111111;
+    border-radius: 4px;
+}

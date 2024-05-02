@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav {
+    background: #131921;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+nav .nav-country {
+    display: flex;
+    align-items: end;
+    margin-left: 25px;
+    font-size: 13px;
+    color: #cccccc;
+}
+nav .nav-country h1{
+    color: #fff;
+}
+.nav-search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    max-width: 1000px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+.nav-search-category{
+    display: flex;
+    align-items: center;
+    background: #e5e5e5;
+    gap: 5px;
+    padding: 10px 20px;
+    border-radius: 4px 0 0 4px;
+    color: #0f1111;
+}
+.search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+.search-icon {
+    max-width: 40px;
+    background: #ffd64f;
+    padding: 8px;
+    border-radius: 0 4px 4px 0;
+}
+.nav-lang {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    gap: 2px;
+    margin-left: 15px ;
+}
+.nav-account {
+    margin-left: 15px;
+}
+.nav-account p{
+    font-size: 10px;
+}
+.nav-account h1{
+    font-size: 14px;
+}
+.cart-link {
+    display: flex;
+    align-items: end;
+    margin: 0 15px;
+}
+
+.nav-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #232f3e;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 15px;
+    position: fixed;
+    z-index: 2;
+}
+.nav-bottom div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
